@@ -9,10 +9,10 @@ import Wrapper from './Wrapper.astro';
 	<Wrapper>
 		<nav class="flex items-center justify-between">
 			<h2 class="flex items-center gap-4"><img width="80px" height="80px" src="/logo.png" alt=""><a href="/" class="text-5xl">{SITE_TITLE}</a></h2>
-			<div class="internal-links">
-				<HeaderLink href="/">Home</HeaderLink>
-				<HeaderLink href="/blog">Regels</HeaderLink>
-				<Button link={true} href="/about">Aanmelden</Button>
+			<div class="flex items-center gap-6">
+				<HeaderLink class="text-2xl" href="/">Home</HeaderLink>
+				<HeaderLink class="text-2xl" href="/blog">Regels</HeaderLink>
+				<Button class="text-2xl" link={true} href="/about">Aanmelden</Button>
 			</div>
 		</nav>
 	</Wrapper>
