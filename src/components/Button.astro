@@ -1,19 +1,24 @@
 ---
-import type { HTMLAttributes } from 'astro/types';
+import type { HTMLAttributes } from "astro/types";
 
-type Props = HTMLAttributes<'button'> & {
-    link?: boolean;
-    href?: string;
+type Props = HTMLAttributes<"button"> & {
+  link?: boolean;
+  href?: string;
 };
 
 const { href, class: className, link, ...props } = Astro.props;
-const tailwind = 'bg-orange-500 hover:bg-orange-700 text-beige-100 px-5 py-1.25 shadow-md rounded-2xl transition-colors';
+const tailwind =
+  "bg-orange-500 hover:bg-orange-700 text-beige-100 px-5 py-1.25 shadow-md rounded-2xl transition-colors no-underline";
 ---
 
-{link 
-? <a href={href} class:list={[className, tailwind]} {...props}>
-	<slot />
-</a>
-: <button 
-    class:list={[className, tailwind]} {...props}><slot /></button>
+{
+  link ? (
+    <a href={href} class:list={[className, tailwind]} {...props}>
+      <slot />
+    </a>
+  ) : (
+    <button class:list={[className, tailwind]} {...props}>
+      <slot />
+    </button>
+  )
 }

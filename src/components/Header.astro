@@ -7,21 +7,58 @@ import Wrapper from "./Wrapper.astro";
 
 <header class="bg-beige-500">
   <Wrapper>
-    <nav class="flex items-center justify-between">
+    <nav class="flex items-center justify-between h-20">
       <h2 class="flex items-center gap-4">
-        <img width="80px" height="80px" src="/logo.png" alt="" /><a
+        <img
+          class="w-10 h-10 md:w-20 md:h-20"
+          width="80px"
+          height="80px"
+          src="/logo.png"
+          alt=""
+        />
+        <a
           href="/"
-          class="text-5xl">{SITE_TITLE}</a
+          class="text-4xl lg:text-5xl no-underline hover:text-brown-500"
         >
+          {SITE_TITLE}
+        </a>
       </h2>
-      <div class="flex items-center gap-6">
+      <!-- Hamburger button for mobile -->
+      <button
+        id="hamburger"
+        class="md:hidden flex flex-col justify-center items-center w-10 h-10"
+        aria-label="Open menu"
+        type="button"
+        onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+      >
+        <span class="block w-8 h-1 bg-brown-500 mb-1 rounded"></span>
+        <span class="block w-8 h-1 bg-brown-500 mb-1 rounded"></span>
+        <span class="block w-8 h-1 bg-brown-500 rounded"></span>
+      </button>
+      <div class="hidden md:flex items-center gap-6">
         <HeaderLink class="text-2xl" href="/">Home</HeaderLink>
-        <HeaderLink class="text-2xl" href="/tips-and-tricks"
-          >Tips & Tricks</HeaderLink
-        >
+        <HeaderLink class="text-2xl" href="/tips-and-tricks">
+          Tips & Tricks
+        </HeaderLink>
         <HeaderLink class="text-2xl" href="/regels">Regels</HeaderLink>
-        <Button class="text-2xl" link={true} href="/about">Aanmelden</Button>
+        <Button class="text-2xl" link={true} href="/aanmelden">
+          Aanmelden
+        </Button>
       </div>
     </nav>
+    <!-- Mobile menu -->
+    <div
+      id="mobile-menu"
+      class="md:hidden hidden flex flex-col gap-4 items-center pb-4"
+    >
+      <HeaderLink class="text-2xl" href="/">Home</HeaderLink>
+      <HeaderLink class="text-2xl" href="/tips-and-tricks">
+        Tips & Tricks
+      </HeaderLink>
+      <HeaderLink class="text-2xl" href="/regels">Regels</HeaderLink>
+      <Button class="text-2xl" link={true} href="/aanmelden">
+        Aanmelden
+      </Button>
+    </div>
   </Wrapper>
 </header>

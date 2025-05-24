@@ -2,5 +2,5 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 export const SITE_TITLE = 'Boeliebots';
-export const SITE_DESCRIPTION = 'Welcome to my website!';
+export const SITE_DESCRIPTION = 'Boeliebots is een combat robots-groep uit Groningen, toegewijd aan het bouwen, strijden en promoten van robotgevechten. Doe mee om samen vechtrobots te ontwerpen, bouwen en ermee te vechten!';
 export const NEXT_EVENT = '22 june 2025';
