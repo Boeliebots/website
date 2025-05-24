@@ -1,19 +1,27 @@
 ---
-import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE } from '../consts';
-import Button from './Button.astro';
-import Wrapper from './Wrapper.astro';
+import HeaderLink from "./HeaderLink.astro";
+import { SITE_TITLE } from "../consts";
+import Button from "./Button.astro";
+import Wrapper from "./Wrapper.astro";
 ---
 
 <header class="bg-beige-500">
-	<Wrapper>
-		<nav class="flex items-center justify-between">
-			<h2 class="flex items-center gap-4"><img width="80px" height="80px" src="/logo.png" alt=""><a href="/" class="text-5xl">{SITE_TITLE}</a></h2>
-			<div class="flex items-center gap-6">
-				<HeaderLink class="text-2xl" href="/">Home</HeaderLink>
-				<HeaderLink class="text-2xl" href="/blog">Regels</HeaderLink>
-				<Button class="text-2xl" link={true} href="/about">Aanmelden</Button>
-			</div>
-		</nav>
-	</Wrapper>
+  <Wrapper>
+    <nav class="flex items-center justify-between">
+      <h2 class="flex items-center gap-4">
+        <img width="80px" height="80px" src="/logo.png" alt="" /><a
+          href="/"
+          class="text-5xl">{SITE_TITLE}</a
+        >
+      </h2>
+      <div class="flex items-center gap-6">
+        <HeaderLink class="text-2xl" href="/">Home</HeaderLink>
+        <HeaderLink class="text-2xl" href="/tips-and-tricks"
+          >Tips & Tricks</HeaderLink
+        >
+        <HeaderLink class="text-2xl" href="/regels">Regels</HeaderLink>
+        <Button class="text-2xl" link={true} href="/about">Aanmelden</Button>
+      </div>
+    </nav>
+  </Wrapper>
 </header>

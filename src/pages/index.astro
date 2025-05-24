@@ -1,38 +1,70 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import HeroImage from '../components/HeroImage.astro';
-import { getCollection } from 'astro:content';
-import FormattedDate from '../components/FormattedDate.astro';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION, NEXT_EVENT } from "../consts";
+import HeroImage from "../components/HeroImage.astro";
+import { getCollection } from "astro:content";
+import FormattedDate from "../components/FormattedDate.astro";
+import Button from "../components/Button.astro";
+import Wrapper from "../components/Wrapper.astro";
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<HeroImage />
-		<main>
-			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<pre>
-								{JSON.stringify(post, null, 2)}
-							</pre>
-						))
-					}
-				</ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <HeroImage>
+      <div
+        class="flex flex-col items-center justify-center text-center bg-brown-500/75 p-4 rounded-3xl text-beige-100 gap-4 max-w-[400px] w-full"
+      >
+        <p class="text-2xl">Volgende evenement</p>
+        <FormattedDate date={new Date(NEXT_EVENT)} class="text-5xl" />
+        <Button class="w-full text-3xl" link={true} href="/aanmelden"
+          >Aanmelden</Button
+        >
+      </div>
+    </HeroImage>
+    <main>
+      <section>
+        <ul>
+          {
+            posts.map((post, index) => (
+              <article
+                class={`${index % 2 === 0 ? "bg-orange-100" : "bg-beige-100"} py-8`}
+              >
+                <Wrapper>
+                  <h2 class="text-3xl font-bold">
+                    <a href={`/evenementen/${post.id}`}>{post.data.title}</a>
+                  </h2>
+                  <div>
+                    <img
+                      width={720}
+                      height={360}
+                      src={post.data.heroImage}
+                      alt=""
+                    />
+                    <div>
+                      <p class="mb-4">
+                        <FormattedDate date={post.data.pubDate} />
+                      </p>
+                      <p class="mb-4">{post.data.description}</p>
+                    </div>
+                  </div>
+                </Wrapper>
+              </article>
+            ))
+          }
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
 </html>

@@ -1,17 +1,33 @@
 ---
 interface Props {
-	date: Date;
+  date: Date;
+  class?: string;
 }
-
-const { date } = Astro.props;
+const { date, class: className = "" } = Astro.props;
 ---
 
-<time datetime={date.toISOString()}>
-	{
-		date.toLocaleDateString('en-us', {
-			year: 'numeric',
-			month: 'short',
-			day: 'numeric',
-		})
-	}
+<time datetime={date.toISOString()} class={className}>
+  {
+    (() => {
+      const now = new Date();
+      const isCurrentYear = date.getFullYear() === now.getFullYear();
+      const options: Intl.DateTimeFormatOptions = {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+      };
+      let formatted = date.toLocaleDateString("nl-NL", options);
+      // Lowercase the month (to match Dutch style)
+      formatted = formatted.replace(
+        /(\d+)\s([A-Za-z]+)/,
+        (_, d, m) => `${d} ${m.toLowerCase()}`
+      );
+      // Capitalize first letter (weekday)
+      formatted = formatted.charAt(0).toUpperCase() + formatted.slice(1);
+      if (!isCurrentYear) {
+        formatted += ` ${date.getFullYear()}`;
+      }
+      return formatted;
+    })()
+  }
 </time>

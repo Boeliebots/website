@@ -1,12 +1,20 @@
 ---
 import Image from "astro/components/Image.astro";
+import Wrapper from "./Wrapper.astro";
 ---
 
-<Image
-  src="https://placehold.co/1200x400"
-  alt="A beautiful landscape"
-  class="w-full h-auto object-cover"
-  width={1200}
-  height={400}
-  loading="lazy"
+<div class="relative w-full h-96">
+  <Image
+    src="https://placehold.co/1200x384"
+    alt="A beautiful landscape"
+    class="w-full h-full object-cover"
+    width={1200}
+    height={384}
+    loading="lazy"
   />
+  <div class="absolute inset-0">
+    <Wrapper class="flex items-center justify-end h-full">
+      <slot />
+    </Wrapper>
+  </div>
+</div>
