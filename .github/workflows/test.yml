@@ -12,11 +12,10 @@ jobs:
     steps:
       - name: pull repo
         run: |
-        cd /var/www/boeliebots-website/website
-        git pull origin main
-
+          cd /var/www/boeliebots-website/website 
+          git pull origin main
       - name: build and deploy
-        run: |
-        cd /var/www/boeliebots-website/website
-        npm install
-        astro build
+        run: | 
+          cd /var/www/boeliebots-website/website
+          npm install
+          astro build
