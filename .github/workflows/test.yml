@@ -1,0 +1,22 @@
+name: Deploy site to test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: pull repo
+        run: |
+        cd /var/www/boeliebots-website/website
+        git pull origin main
+
+      - name: build and deploy
+        run: |
+        cd /var/www/boeliebots-website/website
+        npm install
+        astro build
