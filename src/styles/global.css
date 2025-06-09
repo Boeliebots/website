@@ -41,6 +41,12 @@
 		@apply transition-colors;
 	}
 
+	/* Make tables scrollable horizontally */
+	.table-scroll {
+		overflow-x: auto;
+		display: block;
+	}
+
 	table {
 		@apply w-full;
 	}
@@ -50,6 +56,7 @@
 		@apply text-left;
 		@apply font-normal;
 		@apply bg-orange-100;
+		@apply pr-4
 	}
 
 	tr:nth-child(even) {
