@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "@fontsource/protest-strike";
+@import "@fontsource-variable/roboto";
 
 @theme {
  	--color-*: initial;
@@ -14,13 +15,19 @@
 	--color-orange-700: #F1801D;
 	--color-teal-100: #F3FFFA;
 	--color-teal-500: #5B776B;
+	--font-main: "Roboto", sans-serif;
+	--font-heading: "Protest Strike", sans-serif;
 }
 
 @layer base {
 	html {
 		@apply bg-beige-100;
 		@apply text-brown-500;
-		font-family: 'Protest Strike', sans-serif;
+		@apply font-main;
+	}
+
+	h1, h2, h3, h4, h5, h6, a {
+		@apply font-heading;
 	}
 
 	ins {
@@ -32,6 +39,54 @@
 		@apply hover:text-orange-700;
 		@apply underline;
 		@apply transition-colors;
+	}
+
+	table {
+		@apply w-full;
+	}
+
+	th {
+		@apply font-heading;
+		@apply text-left;
+		@apply font-normal;
+		@apply bg-orange-100;
+	}
+
+	tr:nth-child(even) {
+		@apply bg-orange-100;
+	}
+
+	tr:nth-child(odd) {
+		@apply bg-beige-100;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		@apply mt-4;
+	}
+
+	p, ul, ol, dl, table {
+		@apply mb-4;
+	}
+
+	ul ul {
+		@apply mb-0;
+	}
+	
+	h1 { @apply text-4xl; }
+	h2 { @apply text-3xl; }
+	h3 { @apply text-2xl; }
+	h4 { @apply text-xl; }
+	h5 { @apply text-lg; }
+	h6 { @apply text-base; }
+
+	ul {
+		@apply list-disc;
+		@apply pl-6;
+	}
+
+	ol {
+		@apply list-decimal;
+		@apply pl-6;
 	}
 }
 

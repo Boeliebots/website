@@ -2,7 +2,7 @@
 title: 'Boeliebots III - In het Forum!'
 description: 'Op Zondag 13 April kwamen Boeliebot bestuurders uit het hele land samen in Groningen. In het Forum. 28 bots, 13 prijzen, 63 wedstrijden, 1 doel!'
 pubDate: '2025-04-13'
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/boeliebots-3.jpg'
 ---
 
 Op Zondag 13 April kwamen Boeliebot bestuurders uit het hele land samen in Groningen. In het Forum. 28 bots, 13 prijzen, 63 wedstrijden, 1 doel!
@@ -11,7 +11,6 @@ Op Zondag 13 April kwamen Boeliebot bestuurders uit het hele land samen in Groni
   * **Plastic Ant** speelde een dubbel eliminatie tournooi met 12 bots. Hier kun je het verloop zien: [Resultaten Plastic Ant](https://challonge.com/2g49fqi)
   * **Ant** speelde een dubbel eliminatie tournooi met 4 bots. Het verloop staat hier: [Resultaten Ant](https://challonge.com/lf0ai1b1).
 
-Winnaars!
 | Positie | Instap      | Plastic Ant   | Ant      | Creativiteit | Wat een actie! |
 |---------|-------------|---------------|----------|--------------|----------------|
 | 1       | KingKat     | Snert         | Raspberry| Superbot     | Tiny Terror    |

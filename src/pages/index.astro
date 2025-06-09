@@ -20,29 +20,34 @@ const posts = (await getCollection("events")).sort(
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
-  <body>
+  <body class="flex flex-col min-h-[100dvh]">
     <Header />
     <HeroImage>
       <div
-        class="flex flex-col items-center justify-center text-center bg-brown-500/85 p-4 rounded-3xl text-beige-100 gap-4 max-w-[400px] w-full"
+        class="flex flex-col items-center justify-center text-center bg-brown-500/85 p-4 rounded-3xl text-beige-100 max-w-[400px] w-full"
       >
-        <p class="text-2xl">Volgende evenement</p>
-        <FormattedDate date={new Date(NEXT_EVENT)} class="text-5xl" />
-        <Button class="w-full text-3xl" link={true} href="/aanmelden"
-          >Aanmelden</Button
+        <p class="text-2xl mb-1">Volgende evenement:</p>
+        <FormattedDate
+          date={new Date(NEXT_EVENT)}
+          class="text-5xl font-heading mb-8"
+        />
+        <Button
+          class="w-full text-3xl font-heading"
+          link={true}
+          href="/aanmelden">Aanmelden</Button
         >
       </div>
     </HeroImage>
-    <main>
+    <main class="flex-1">
       <section>
-        <ul>
+        <ul class="pl-0 mb-0">
           {
             posts.map((post, index) => (
               <article
                 class={`${index % 2 === 0 ? "bg-orange-100" : "bg-beige-100"} py-8`}
               >
                 <Wrapper>
-                  <h2 class="text-5xl font-bold mb-4">
+                  <h2 class="text-5xl font-bold mb-4 mt-0">
                     <a
                       href={`/evenementen/${post.id}`}
                       class="hover:text-brown-500"
@@ -61,15 +66,15 @@ const posts = (await getCollection("events")).sort(
                       />
                     )}
                     <div>
-                      <p class="mb-4">
+                      <p class="mb-4 mt-0">
                         <FormattedDate
-                          class="text-2xl"
+                          class="text-2xl font-heading"
                           date={post.data.pubDate}
                         />
                       </p>
                       <p class="mb-4">
                         {post.data.description}{" "}
-                        <a href={`/evenementen/${post.id}`}>Lees meer.</a>
+                        <a href={`/evenementen/${post.id}`}>Lees meer</a>.
                       </p>
                     </div>
                   </div>

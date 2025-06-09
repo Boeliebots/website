@@ -3,12 +3,11 @@ import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import FormattedDate from "../components/FormattedDate.astro";
 import Wrapper from "../components/Wrapper.astro";
 
 type Props = CollectionEntry<"events">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, heroImage } = Astro.props;
 ---
 
 <html lang="en">
@@ -16,15 +15,21 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     <BaseHead title={title} description={description} />
   </head>
 
-  <body>
+  <body class="flex flex-col min-h-[100dvh]">
     <Header />
-    <main>
+    <main class="flex-1">
       <article>
         <Wrapper>
           <div class="hero-image">
             {
               heroImage && (
-                <img width={1020} height={510} src={heroImage} alt="" />
+                <img
+                  class="mx-auto my-4"
+                  width={1020}
+                  height={510}
+                  src={heroImage}
+                  alt=""
+                />
               )
             }
           </div>

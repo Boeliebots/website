@@ -2,29 +2,32 @@
 title: 'Boeliebots I - De eerste wedstrijd'
 description: 'De eerste, duidelijk geval leren. Op zoek naar een balans tussen veel wedstrijden en redelijke doorloop tijd gegokt dat 4 poules van 4 bots een goed idee is. Vervolgens de winnaars van elke poule met een elk tegen elk laten beslissen wie won.'
 pubDate: '2024-10-20'
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: '/boeliebots-1.jpg'
 ---
 
 De eerste, duidelijk geval leren.
 
 Op zoek naar een balans tussen veel wedstrijden en redelijke doorloop tijd gegokt dat 4 poules van 4 bots een goed idee is. Vervolgens de winnaars van elke poule met een elk tegen elk laten beslissen wie won.
 
-Poules waren:
+#### Poule 1:
   - Wouter 2
   - Bas 2
   - Jens 0
   - Jasper 2
 
+#### Poule 2
   - Martin
   - Inne
   - Jolien
   - Kaas (2e robot van Wouter)
 
+#### Poule 3
   - Herman
   - Klaas
   - Ilja
   - Marijke
 
+#### Poule 4
   - Nick 
   - anonieme jongere
   - anonieme jongere 
