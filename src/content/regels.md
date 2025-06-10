@@ -12,13 +12,15 @@ In elke klasse krijgt de top 3 een prijs, daarnaast is er nu ook het originalite
 **Plastic ant** is de volgende stap. Hier mogen ook draaiende wapens met meer restricties voor materiaal aan de buitenkant. Een specifieke lijst met plastics, dit om de schade en kosten te beperken.   
 **Ant** is de meest vrije klasse, dit is onze smaak van de internationaal gebruikelijke regels.
 
+Meer over specifieke technische regels per klasse vind je in [het reglement](/regels/reglement).
+
 ### Instap klasse
   * maximaal 10x10x10cm (standaard regel)
   * maximaal 150 gram
   * geen volledig draaiende wapens; Servo's die < 360 graden draaien zijn wel toegestaan. (Boeliebot instap klasse specifiek)
   * geen extern metaal voor de structurele integriteit of bepantsering.
   * standaard hardware (Boeliebot instap klasse specifiek), dus allemaal dezelfde wielen, motoren, ontvanger, accu en motor controller.
-  * We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze klasse in de geest van de regels mee te doen. Als je dit niet doet kun je geweigerd of gediskwalificeerd worden. Neem vooraf [contact](mailto:boeliebots@maakplek.nl) op als je niet zeker weet of jouw robot aan de bovenstaande definitie voldoet.
+  * We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze klasse in de geest van de [regels](/regels/reglement) mee te doen. Als je dit niet doet kun je geweigerd of gediskwalificeerd worden. Neem vooraf [contact](mailto:boeliebots@maakplek.nl) op als je niet zeker weet of jouw robot aan de bovenstaande definitie voldoet.
 
 #### standaard hardware voor de instapklasse
 Om de competitie in deze instapklasse zo eerlijk en budgetvriendelijk mogelijk te maken gebruiken we allemaal een standaard kitje met onderdelen. Je kunt hier natuurlijk van afwijken, maar dan kom je daardoor in een andere klasse terecht.
@@ -47,7 +49,7 @@ In deze plastic ant klasse zijn alleen specifieke materialen als constructiemate
   * maximaal 150 gram voor een rijdende robot, 225 gram als je op een andere manier beweegt
   * de robot en wapen moeten veilig en zonder gereedschap uit te zetten zijn in geval van nood
   * [Failsafe functie](https://www.youtube.com/watch?v=4DGZOaQOzJU) van ontvanger moet ingesteld zijn en alle motoren en servo's stoppen.
-  * __Niet toegestane wapens volgens standaard antweight reglement:__ 
+  * __Niet toegestane wapens volgens standaard antweight [reglement](/regels/reglement):__ 
     * Lijm of kleef wapens
     * vloeistof wapens (sproeiers, etc.)
     * draden of netten om te verstrikken
@@ -57,7 +59,7 @@ In deze plastic ant klasse zijn alleen specifieke materialen als constructiemate
     * ronddraaiende wapens die bedoeld zijn uit elkaar spatten 
     * Magnetische / inductieve systemen 
   * Boeliebot specifiek worden er geen Gas of vloeistof aangedreven wapens toegestaan
-  * We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze klasse in de geest van de regels mee te doen. Als je dit niet doet kun je geweigerd of gediskwalificeerd worden. Neem vooraf [contact](mailto:boeliebots@maakplek.nl) op als je niet zeker weet of jouw robot aan de bovenstaande definitie voldoet.
+  * We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze klasse in de geest van de [regels](/regels/reglement) mee te doen. Als je dit niet doet kun je geweigerd of gediskwalificeerd worden. Neem vooraf [contact](mailto:boeliebots@maakplek.nl) op als je niet zeker weet of jouw robot aan de bovenstaande definitie voldoet.
 
 ### Ant klasse
 In deze vrije ant klasse mag je zelf kiezen welke materialen en electronica je gebruikt.
@@ -66,7 +68,7 @@ In deze vrije ant klasse mag je zelf kiezen welke materialen en electronica je g
   * maximaal 150 gram voor een rijdende robot, 225 gram als je op een andere manier beweegt
   * de robot en wapen moeten veilig en zonder gereedschap uit te zetten zijn in geval van nood
   * [Failsafe functie](https://www.youtube.com/watch?v=4DGZOaQOzJU) van ontvanger moet ingesteld zijn en alle motoren en servo's stoppen.
-  * __Niet toegestane wapens volgens standaard antweight reglement:__ 
+  * __Niet toegestane wapens volgens standaard antweight [reglement](/regels/reglement):__ 
     * Lijm of kleef  wapens
     * vloeistof wapens (sproeiers, etc.)
     * draden of netten om te verstrikken
@@ -76,7 +78,7 @@ In deze vrije ant klasse mag je zelf kiezen welke materialen en electronica je g
     * ronddraaiende wapens die bedoeld zijn uit elkaar te spatten
     * Magnetische / inductieve systemen 
   * Boeliebot specifiek worden er geen Gas of vloeistof aangedreven wapens toegestaan
-  * We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze klasse in de geest van de regels mee te doen. Als je dit niet doet kun je geweigerd of gediskwalificeerd worden. Neem vooraf [contact](mailto:boeliebots@maakplek.nl) op als je niet zeker weet of jouw robot aan de bovenstaande definitie voldoet.
+  * We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze klasse in de geest van de [regels](/regels/reglement) mee te doen. Als je dit niet doet kun je geweigerd of gediskwalificeerd worden. Neem vooraf [contact](mailto:boeliebots@maakplek.nl) op als je niet zeker weet of jouw robot aan de bovenstaande definitie voldoet.
 
 **Internationaal zijn er diverse klassen. Wij gebruiken als basis de Ant weight klasse zoals deze in Europa en Australië gebruikt wordt. De VS hebben een andere standaard voor Ant weight, die is zwaarder. Let hier dus op als je online naar inspiratie gaat zoeken.**
 

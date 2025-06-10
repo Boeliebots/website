@@ -34,41 +34,41 @@ Op zoek naar een balans tussen veel wedstrijden en redelijke doorloop tijd gegok
   - anonieme jongere
 
 De gespeelde wedstrijden:  
-<ins>Inne</ins> - Martin  
-Jolien - <ins>Kaas</ins> *  
-Kaas - <ins>Inne</ins>  
-<ins>Martin</ins> - Jolien  
-Kaas - <ins>Martin</ins>  
-<ins>Inne</ins> - Jolien  
+<u>Inne</u> - Martin  
+Jolien - <u>Kaas</u> *  
+Kaas - <u>Inne</u>  
+<u>Martin</u> - Jolien  
+Kaas - <u>Martin</u>  
+<u>Inne</u> - Jolien  
 Inne, Kaas en Martin stonden gelijk, uiteindelijk won Inne vervolgens na nog 3 wedstrijden.  
 
-<ins>Wouter</ins> - Bas  
-Jens - <ins>Jasper</ins>  
-Jasper - <ins>Bas</ins>  
-<ins>Wouter</ins> - Jens  
-<ins>Jasper</ins> - Wouter  
-<ins>Bas</ins> - Jens  
+<u>Wouter</u> - Bas  
+Jens - <u>Jasper</u>  
+Jasper - <u>Bas</u>  
+<u>Wouter</u> - Jens  
+<u>Jasper</u> - Wouter  
+<u>Bas</u> - Jens  
 Jasper won deze poule  
 
-Herman - <ins>Klaas</ins>  
-<ins>Ilja</ins> - Marijke  
-Marijke - <ins>Klaas</ins>  
-<ins>Herman</ins> - Ilja  
-Marijke - <ins>Herman</ins>  
-Klaas - <ins>Ilja</ins>  
+Herman - <u>Klaas</u>  
+<u>Ilja</u> - Marijke  
+Marijke - <u>Klaas</u>  
+<u>Herman</u> - Ilja  
+Marijke - <u>Herman</u>  
+Klaas - <u>Ilja</u>  
 Klaas, Ilja en Herman stonden gelijk, Herman won na nog 3 wedstrijden.  
 
 Nick was de winnaar van de jongeren poule.
 
 Dus Inne, carbon gast, Jasper en Herman gingen naar het eindtournooi.
 
-<ins>Nick</ins> - Inne  
-Jasper - <ins>Herman</ins>  
-<ins>Herman</ins> - Inne  
-<ins>Nick</ins> - Jasper  
-<ins>Herman</ins> - Nick (dit was dus de finale)  
+<u>Nick</u> - Inne  
+Jasper - <u>Herman</u>  
+<u>Herman</u> - Inne  
+<u>Nick</u> - Jasper  
+<u>Herman</u> - Nick (dit was dus de finale)  
 
-Inne - <ins>Jasper</ins>  
+Inne - <u>Jasper</u>  
 
 De wedstrijd tussen Herman en Nick was dus uiteindelijk de finale. Deze hebben we als best of 3 gespeeld. Herman won twee keer.
 
