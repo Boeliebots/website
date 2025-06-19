@@ -1,7 +1,7 @@
 ---
 title: 'Boeliebots IV - In het Forum!'
 description: 'Op Zondag 22 Juni zijn we weer welkom in het Forum in Groningen. Belofte: meer actie!'
-pubDate: '2025-06-19'
+pubDate: '2025-06-22'
 heroImage: '/boeliebots-3.jpg'
 ---
 
