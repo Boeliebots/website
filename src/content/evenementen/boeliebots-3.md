@@ -1,6 +1,6 @@
 ---
 title: 'Boeliebots III - In het Forum!'
-description: 'Op Zondag 13 April kwamen Boeliebot bestuurders uit het hele land samen in Groningen. In het Forum. 28 bots, 13 prijzen, 63 wedstrijden, 1 doel!'
+description: 'We kwamen Boeliebot bestuurders uit het hele land samen in Groningen. In het Forum. 28 bots, 13 prijzen, 63 wedstrijden, 1 doel!'
 pubDate: '2025-04-13'
 heroImage: '/boeliebots-3.jpg'
 ---
