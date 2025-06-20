@@ -4,20 +4,40 @@ import type { HTMLAttributes } from "astro/types";
 type Props = HTMLAttributes<"button"> & {
   link?: boolean;
   href?: string;
+  disabled?: boolean;
 };
 
-const { href, class: className, link, ...props } = Astro.props;
+const {
+  href,
+  class: className,
+  link,
+  disabled = false,
+  ...props
+} = Astro.props;
 const tailwind =
   "bg-orange-500 hover:bg-orange-700 text-beige-100 px-5 py-1.25 shadow-md rounded-2xl transition-colors no-underline";
+const disabledTailwind =
+  "bg-gray-100 text-brown-500 px-5 py-1.25 shadow-md rounded-2xl transition-colors no-underline cursor-not-allowed";
 ---
 
 {
   link ? (
-    <a href={href} class:list={[className, tailwind]} {...props}>
+    <a
+      href={disabled ? undefined : href}
+      aria-disabled={disabled ? "true" : undefined}
+      tabindex={disabled ? "-1" : undefined}
+      class:list={[className, disabled ? disabledTailwind : tailwind]}
+      {...props}
+      onClick={disabled ? (e) => e.preventDefault() : undefined}
+    >
       <slot />
     </a>
   ) : (
-    <button class:list={[className, tailwind]} {...props}>
+    <button
+      class:list={[className, disabled ? disabledTailwind : tailwind]}
+      disabled={disabled}
+      {...props}
+    >
       <slot />
     </button>
   )

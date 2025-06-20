@@ -3,7 +3,7 @@
 @import "@fontsource-variable/roboto";
 
 @theme {
- 	--color-*: initial;
+	--color-*: initial;
 	--color-beige-100: #FFFBF4;
 	--color-beige-500: #EBCA8E;
 	--color-brown-100: #F1DDD2;
@@ -15,6 +15,7 @@
 	--color-orange-700: #F1801D;
 	--color-teal-100: #F3FFFA;
 	--color-teal-500: #5B776B;
+	--color-gray-100: #E5E5E5;
 	--font-main: "Roboto", sans-serif;
 	--font-heading: "Protest Strike", sans-serif;
 }

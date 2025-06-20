@@ -9,82 +9,75 @@ import FormattedDate from "../components/FormattedDate.astro";
 import Button from "../components/Button.astro";
 import Wrapper from "../components/Wrapper.astro";
 import { Image } from "astro:assets";
+import EventCard from "../components/EventCard.astro";
 
 const posts = (await getCollection("events")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 ---
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-  </head>
-  <body class="flex flex-col min-h-[100dvh]">
-    <Header />
-    <HeroImage>
-      <div
-        class="flex flex-col items-center justify-center text-center bg-brown-500/85 p-4 rounded-3xl text-beige-100 max-w-[400px] w-full"
-      >
-        <p class="text-2xl mb-1">Volgende evenement:</p>
-        <FormattedDate
-          date={new Date(NEXT_EVENT)}
-          class="text-5xl font-heading mb-8"
-        />
-        <Button
-          class="w-full text-3xl font-heading"
-          link={true}
-          href="/aanmelden">Aanmelden</Button
-        >
-      </div>
-    </HeroImage>
-    <main class="flex-1">
-      <section>
-        <ul class="pl-0 mb-0">
-          {
-            posts.map((post, index) => (
-              <article
-                class={`${index % 2 === 0 ? "bg-orange-100" : "bg-beige-100"} py-8`}
-              >
-                <Wrapper>
-                  <h2 class="text-5xl font-bold mb-4 mt-0">
-                    <a
-                      href={`/evenementen/${post.id}`}
-                      class="hover:text-brown-500"
-                    >
-                      {post.data.title}
-                    </a>
-                  </h2>
-                  <div class="flex flex-col md:flex-row items-center md:items-start gap-4">
-                    {post.data.heroImage && (
-                      <Image
-                        width={420}
-                        height={360}
-                        class="object-cover rounded-lg shadow-md"
-                        src={post.data.heroImage}
-                        alt=""
-                      />
-                    )}
-                    <div>
-                      <p class="mb-4 mt-0">
-                        <FormattedDate
-                          class="text-2xl font-heading"
-                          date={post.data.pubDate}
-                        />
-                      </p>
-                      <p class="mb-4">
-                        {post.data.description}{" "}
-                        <a href={`/evenementen/${post.id}`}>Lees meer</a>.
-                      </p>
-                    </div>
-                  </div>
-                </Wrapper>
-              </article>
-            ))
-          }
-        </ul>
-      </section>
-    </main>
-    <Footer />
-  </body>
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body class="flex flex-col min-h-[100dvh]">
+		<Header />
+		<HeroImage>
+			<EventCard />
+		</HeroImage>
+		<main class="flex-1">
+			<section>
+				<ul class="pl-0 mb-0">
+					{
+						posts.map((post, index) => (
+							<article
+								class={`${index % 2 === 0 ? "bg-orange-100" : "bg-beige-100"} py-8`}
+							>
+								<Wrapper>
+									<h2 class="text-5xl font-bold mb-4 mt-0">
+										<a
+											href={`/evenementen/${post.id}`}
+											class="hover:text-brown-500"
+										>
+											{post.data.title}
+										</a>
+									</h2>
+									<div class="flex flex-col md:flex-row items-center md:items-start gap-4">
+										{post.data.heroImage && (
+											<Image
+												width={420}
+												height={360}
+												class="object-cover rounded-lg shadow-md"
+												src={post.data.heroImage}
+												alt=""
+											/>
+										)}
+										<div>
+											<p class="mb-4 mt-0">
+												<FormattedDate
+													class="text-2xl font-heading"
+													date={post.data.pubDate}
+												/>
+											</p>
+											<p class="mb-4">
+												{post.data.description}{" "}
+												<a
+													href={`/evenementen/${post.id}`}
+												>
+													Lees meer
+												</a>
+												.
+											</p>
+										</div>
+									</div>
+								</Wrapper>
+							</article>
+						))
+					}
+				</ul>
+			</section>
+		</main>
+		<Footer />
+	</body>
 </html>
