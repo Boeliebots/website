@@ -7,6 +7,9 @@ heroImage: '/boeliebots-3.jpg'
 
 [Link naar wedstrijdschema](http://competitie.boeliebots.nl/list)
 
+[Link naar standen](/schema)
+
+
 We zullen alle klassen in het "double elimination" systeem spelen. Dit lijkt op de eindronde bij wereldkampioenschappen met 1 mazzel: Je mag 1 keer verliezen!
 
 Planning:
