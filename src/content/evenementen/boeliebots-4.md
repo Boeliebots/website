@@ -2,7 +2,7 @@
 title: 'Boeliebots IV - Met werkende livestream'
 description: 'We waren weer welkom in het Forum in Groningen. De belofte vooraf was: meer actie! En dat is gelukt, met 22 robots in de ant en plastic ant klassen moest je goed blijven opletten. Dus doel geslaagd en weer een legendarische middag.'
 pubDate: '2025-06-22'
-heroImage: '/boeliebots-3.jpg'
+heroImage: '/boeliebots-4.jpg'
 ---
 Het was heel warm in het Forum, en de actie loog er ook niet om. Altijd spannend onderdeel "de techniek" heeft goed meegewerkt, dus dat was ook heel heel fijn. De livestream kun je [op youtube](https://youtube.com/live/xrhdEJzg84c) terug kijken. Daar kun je ook zien dat er lekker veel actie was. Op ons verlanglijstje staat nog om volgende keer een microfoon in de arena te monteren, dat je de actiegeluiden ook later terug kunt horen.
 
