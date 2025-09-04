@@ -3,7 +3,6 @@ import { computed } from 'vue';
 import { eventIsClosed } from '../utils';
 
 const isClosed = computed(() => eventIsClosed());
-
 </script>
 
 <template>
