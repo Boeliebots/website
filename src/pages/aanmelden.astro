@@ -1,35 +1,23 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import Wrapper from "../components/Wrapper.astro";
+import Layout from "../layouts/Page.astro";
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <BaseHead
-      title={`Aanmelden | ${SITE_TITLE}`}
-      description={SITE_DESCRIPTION}
-    />
-  </head>
-  <body class="flex flex-col">
-    <Header />
-    <main class="flex-1">
-      <section>
-        <Wrapper>
-          <iframe
+<Layout
+  title="Tips & Tricks"
+  description="Handige tips en tricks om het meeste uit je robot te halen!"
+  pubDate={new Date("June 09 2025")}
+>
+  <Wrapper>
+    <h1 class="text-5xl font-heading">Aanmelden voor Boeliebots V</h1>
+    <p class="mt-2">Op dit moment is er nog geen aanmeldingformulier.</p>
+    <!-- <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSfqiVH_Y15ToJ74fedChvSwbZf3LoNiy_Jmo9W_P4vgqJ4Y8w/viewform?embedded=true"
             class="w-full no-scrollbar"
             height="2520"
             frameborder="0"
             marginheight="0"
             marginwidth="0">Loading…</iframe
-          >
-        </Wrapper>
-      </section>
-    </main>
-    <Footer />
-  </body>
-</html>
+          > -->
+  </Wrapper>
+</Layout>

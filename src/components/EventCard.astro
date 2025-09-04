@@ -6,41 +6,41 @@ import FormattedDate from "./FormattedDate.astro";
 ---
 
 <div
-    class="flex flex-col items-center justify-center text-center bg-brown-500/85 p-4 rounded-3xl text-beige-100 max-w-[400px] w-full"
+  class="flex flex-col items-center justify-center text-center bg-brown-500/85 p-4 rounded-3xl text-beige-100 max-w-[400px] w-full"
 >
-    <p class="text-2xl mb-1">Volgende evenement:</p>
-    <FormattedDate
-        date={new Date(NEXT_EVENT)}
-        class="text-5xl font-heading mb-8"
-    />
-    <ClosedOrNot client:load>
+  <p class="text-2xl mb-1">Volgende evenement:</p>
+  <FormattedDate
+    date={new Date(NEXT_EVENT)}
+    class="text-4xl font-heading mb-8"
+  />
+  <ClosedOrNot client:load>
+    <Button
+      slot="open"
+      class="w-full text-3xl font-heading"
+      link={true}
+      href="/aanmelden"
+    >
+      Aanmelden
+    </Button>
+    {
+      LIVESTREAM_URL ? (
         <Button
-            slot="open"
-            class="w-full text-3xl font-heading"
-            link={true}
-            href="/aanmelden"
+          slot="closed"
+          href={LIVESTREAM_URL}
+          link={true}
+          class="w-full text-3xl font-heading"
         >
-            Aanmelden
+          Bekijk live
         </Button>
-        {
-            LIVESTREAM_URL ? (
-                <Button
-                    slot="closed"
-                    href={LIVESTREAM_URL}
-                    link={true}
-                    class="w-full text-3xl font-heading"
-                >
-                    Bekijk live
-                </Button>
-            ) : (
-                <Button
-                    slot="closed"
-                    class="w-full text-3xl font-heading"
-                    disabled={true}
-                >
-                    Aanmelden gesloten
-                </Button>
-            )
-        }
-    </ClosedOrNot>
+      ) : (
+        <Button
+          slot="closed"
+          class="w-full text-3xl font-heading"
+          disabled={true}
+        >
+          Aanmelden gesloten
+        </Button>
+      )
+    }
+  </ClosedOrNot>
 </div>
