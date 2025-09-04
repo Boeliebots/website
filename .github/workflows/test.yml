@@ -18,4 +18,4 @@ jobs:
         run: | 
           cd /var/www/boeliebots-website/website
           npm install
-          ./node_modules/.bin/astro build
+          npm run build
