@@ -12,16 +12,15 @@ Deze regels zijn gebaseerd op de regels van de [Bristol Bot Builders](https://br
 Afwijkende regels zijn in het <u>**vetgedrukt en onderlijnd**</u> aangegeven.
 
 
-## Afkeurpunten
+## Meest voorkomende afkeurpunten
 Bij de keuring zijn we bij Boeliebots 3 flexibel geweest op een aantal punten waar we nu streng op zullen zijn:
   * Schakelaar of verwijderbare connector
     * Vast gemonteerd, niet zwevend aan de draadjes. Dit mag met seconde/smeltlijm.
     * Voorzien van duidelijke 1/0 aan/uit markering.
-    * Goed bereikbaar.
+    * Goed bereikbaar, dus niet achter een wapen of wiel.
   * Maat
     * Tip als je gaat 3d ontwerpen, maak je robot kleiner dan 150x150mm, 148x148mm is handiger. Printers zijn niet zo perfect als je denkt en als je uiteindelijk tape nodig hebt om de boel bij elkaar te houden past het ook binnen de maximale maat.
-  * Afdekken, in ANT en PLANT klasse, bescherm je accu en electronica. 
-
+  * Afdekken, in ANT en PLANT klasse, bescherm je accu en electronica.
 
 ## Inhoud
 
@@ -74,7 +73,7 @@ Gewichtslimieten; Gebruik een weegschaal die tenminste nauwkeurig is op 1 gram.
 
   - Elke robot moet via een gemakkelijk bereikbare manier zonder gereedschap uit te zetten zijn (bijv. Met een schakelaar, een verwijderbare connector of batterijstekker). 
   - Schakelaars moeten voorzien zijn van een duidelijke aan/uit markering.
-  - Schakelaars mogen zich niet achter wapens bevinden.
+  - Schakelaars mogen zich **niet** achter wapens bevinden.
   - Zenders mogen de volgende frequenties gebruiken: 2,4 GHz. Stuur voorag een bericht aan de evenement organisatie als je hiervan wilt afwijken.
   - Wapens moeten op afstand aan en uit te zetten zijn.
   - Failsafe - De robot en wapens moeten volledig tot stilstand komen indien de zender uitgezet wordt.
@@ -86,6 +85,7 @@ Gewichtslimieten; Gebruik een weegschaal die tenminste nauwkeurig is op 1 gram.
   - Draad, netten of anderzijds verstrikkende wapens
   - Wapens met vuur
   - Op elektriciteit gebaseerde wapens (tesla coils)
+  - Op hitte gebasseerde wapens (denk soldeerbouten)
   - Explosieve wapens
   - Magnetische / inductieve systemen
 
@@ -96,7 +96,6 @@ We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze kl
 - Boeliebots specifiek: Er worden er **geen** gas of vloeistof aangedreven wapens toegestaan.
 - <u>**Geen wapens met projectielen, neem contact op met de wedstrijdleiding voor aanmelden bij twijfel.**</u>
 - Scherpe randen dienen voorzien te zijn van beschermende kapjes of schuim buiten de arena.
-- Ronddraaiende wapens mogen niet sneller dan 260 m/s zijn op de uiteinden. Gebruik de online rekentool van Bristol Bot Builders: [rekentool](https://bristolbotbuilders.com/tools/tipspeed/)
 - Robot met draaiende of andere hoogenergetische wapens moeten voorzien zijn van een fysieke beveiliging die voorkomt dat wapens per ongeluk kunnen activeren buiten de arena. Voorbeelden zijn blocking bars of klemmen. Deze moeten duidelijk zichtbaar zijn en niet per ongeluk te verwijderen zijn. Indien gebruik wordt gemaakt van een beveiliging, moet deze getoond worden tijdens de keuring. De beveiliging hoeft niet binnen de 150 mm te vallen.
 
 ## 6 Stroom
@@ -106,9 +105,8 @@ We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze kl
 ## 7 Arena regels
   - Alle gevechten moeten plaatsvinden in een arena, ongeacht welke wapens gebruikt worden.
   - De deuren van de arena moeten volledig gesloten zijn voordat een gevecht begint, ongeacht welke wapens gebruikt worden.
-  - <u>**Onderstaande is de oude arena, we werken momenteel aan een grotere arena die er mogelijk iets anders uitziet.**</u>
-  - De arena staat op een verhoging en is ongeveer 1 vierkante meter groot.
-  - De arena bevat 1 hoek waarin robots kunnen vallen (pit).
+  - De arena staat op een verhoging en is ongeveer 2 vierkante meter groot (1x2m) en 1m hoog.
+  - De arena bevat 1 permanent gat waarin robots kunnen vallen (**pit**).
   - De arena is voorzien van 6mm dik polycarbonaat.
 
 ## 8 Gevechtsregels
@@ -128,10 +126,10 @@ We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze kl
   - Voor Multi Weapon bots geldt dat in alle configuraties de failsafe moet werken. De zwaarste configuratie dient tijdens technische keuring getoond te worden. De bestuurder is verantwoordelijk dat gewicht gecontroleerd is voor elk gevecht.
   - Robots mogen niet gedeeld worden door teams, met uitzondering van Cluster Bots, die individueel bestuurd mogen worden. (Zenders mogen gedeeld worden, indien aangegeven bij opgave).
   - Robots dienen alleen door het team, scheidsrechter of de wedstrijdleiding gehanteerd te worden. De bestuurder is verantwoordelijk dat de robot veilig uitstaat en de wapens niet meer draaien en eventuele bescherming geplaatst is voordat de robot uit de arena gehaald wordt.
-  - Deelnemers dienen zich tenminste 2 wedstrijden voor het gevecht bij de arena te melden met hun robots. Indien je te laat bent verlies je het gevecht. De evenementenorganisatie behouden zich het recht om hiervan af te wijken.
+  - <u>**Deelnemers dienen zich tenminste 2 wedstrijden voor het gevecht bij de arena te melden met hun robots. Indien je te laat bent voor een gevecht verlies je het gevecht. De evenementenorganisatie behouden zich het recht om hiervan af te wijken.**</u>
   - Robots mogen niet buiten de arena gebruikt worden, behalve voor regulier testen van functionaliteiten op een tafel. Draaiende of anderzijds gevaarlijke wapens dienen in een afgesloten test arena getest te worden met de deuren dicht.
   - Iedereen die niet actief een vechtende robot bestuurt, dient afstand te houden van de arena, buiten de afkadering.
-  - Een LiPo bag of anderzijds geschikte bak dient beschikbaar te zijn tijdens de gevechten waar beide robots in passen in geval van nood (brandende LiPo)
+  - Zorg voor een LiPo bag of anderzijds geschikte bak wanneer je lipo's oplaad. Er is tijdens de gevechten een bak waar beide robots in passen in geval van nood (brandende LiPo) aanwezig.
   - Willekeurige technische checks kunnen plaatsvinden voor elk gevecht om te zien of de robot nog steeds voldoet aan het reglement zonder opgaaf van reden.
   - <u>**Er mogen geen complete robots als reserve beschikbaar zijn. Enkel losse reserve onderdelen die ter plekke vervangen kunnen worden.**</u>
 
@@ -166,11 +164,14 @@ In deze plastic ant klasse zijn alleen specifieke materialen als constructiemate
 
   * Onder andere toegestane materialen:
     * PET, PETG, ABS, ASA, PLA, PLA+, LW-PLA, hout, spons, papier, karton. 
-  * Niet toegestane materialen zijn onder andere metaal, UHMW en onderdelen van een composiet materiaal of vezelversterkt filament.
+  * Niet toegestane materialen zijn onder andere metaal, flexibel 3D print filament (bijvoorbeeld TPU en TPE), UHMW en onderdelen van een composiet materiaal of vezelversterkt filament (bijvoorbeeld, glasvezel, carbon, hout etc.).
 
   * de robot en wapen moeten veilig en zonder gereedschap uit te zetten zijn in geval van nood
   * [Failsafe functie](https://www.youtube.com/watch?v=4DGZOaQOzJU) van ontvanger moet ingesteld zijn en alle motoren en servo's stoppen.
-  * We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze klasse in de geest van de [regels](/regels/reglement) mee te doen. Als je dit niet doet kun je geweigerd of gediskwalificeerd worden. Neem vooraf [contact](mailto:boeliebots@maakplek.nl) op als je niet zeker weet of jouw robot aan de bovenstaande definitie voldoet.
+  * We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze klasse in de geest van de regels mee te doen. Als je dit niet doet kun je geweigerd of gediskwalificeerd worden. Neem vooraf [contact](mailto:boeliebots@maakplek.nl) op als je niet zeker weet of jouw robot aan de bovenstaande definitie voldoet.
 
 ### Ant klasse
 In deze vrije ant klasse mag je zelf kiezen welke materialen en electronica je gebruikt.
+  * de robot en wapen moeten veilig en zonder gereedschap uit te zetten zijn in geval van nood
+  * [Failsafe functie](https://www.youtube.com/watch?v=4DGZOaQOzJU) van ontvanger moet ingesteld zijn en alle motoren en servo's stoppen.
+  * We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze klasse in de geest van de regels mee te doen. Als je dit niet doet kun je geweigerd of gediskwalificeerd worden. Neem vooraf [contact](mailto:boeliebots@maakplek.nl) op als je niet zeker weet of jouw robot aan de bovenstaande definitie voldoet.
