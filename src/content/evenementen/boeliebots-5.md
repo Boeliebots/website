@@ -9,3 +9,5 @@ Zondag 16 november vanaf 13.00 starten de wedstrijden tot de prijsuitreiking om 
 
 Voor deelnemers handig om te weten: 11.00 - 12.00 is de technische keuring, dus kom op tijd, dan kun je eventuele verbeterpunten nog op tijd verwerken.
 In de planning hebben we weer ruimte voor pauzes en daarin is plek voor een aantal 1-op-1 (grudge match) en veel-tegen-veel (melee) wedstrijden.
+
+Aanmelden kan nog tot in ieder geval 9 november via [het formulier](/aanmelden).
