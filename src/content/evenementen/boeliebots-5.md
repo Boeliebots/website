@@ -2,7 +2,7 @@
 title: 'Boeliebots V - Grotere robots, nieuwe arena'
 description: 'Deze keer mogen de robots 15cm x 15cm groot zijn, nog steeds 150 gram. De arena is ook nieuw en groter, dus we zijn super benieuwd! Van harte welkom om te komen kijken in het Forum op 16 november.'
 pubDate: '2025-11-16'
-heroImage: '/boeliebots-4.jpg'
+heroImage: '/boeliebots-4-2.jpg'
 ---
 
 Zondag 16 november vanaf 13.00 starten de wedstrijden tot de prijsuitreiking om iets voor vier uur.
