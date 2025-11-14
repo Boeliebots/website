@@ -1,0 +1,100 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { Image } from "astro:assets";
+import { existsSync, readdirSync } from "fs";
+import { join } from "path";
+
+export function getStaticPaths() {
+  const botsPath = join(process.cwd(), "public", "bots");
+
+  // Check if the bots directory exists
+  if (!existsSync(botsPath)) {
+    return [];
+  }
+
+  const entries = readdirSync(botsPath, { withFileTypes: true });
+
+  // Find all directories in public/bots
+  const paths = entries
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => ({
+      params: { id: entry.name },
+    }));
+
+  return paths;
+}
+
+const { id } = Astro.params;
+
+// Check if the images folder exists
+const imagesPath = join(process.cwd(), "public", "bots", id || "");
+const hasImages = existsSync(imagesPath);
+
+let images: string[] = [];
+if (hasImages) {
+  // Get all image files from the directory
+  const files = readdirSync(imagesPath);
+  images = files.filter((file) => {
+    const ext = file.toLowerCase().split(".").pop();
+    return ["jpg", "jpeg", "png", "gif", "webp", "svg"].includes(ext || "");
+  });
+}
+
+// Function to get filename without extension
+function getFileNameWithoutExtension(filename: string): string {
+  return filename.substring(0, filename.lastIndexOf(".")) || filename;
+}
+---
+
+<html lang="en">
+  <head>
+    <BaseHead
+      title={`Boeliebots ${id} - Robots`}
+      description={`View all robot images from Boeliebots ${id}`}
+    />
+  </head>
+
+  <body class="flex flex-col min-h-[100dvh]">
+    <Header />
+    <main class="flex-1">
+      <div
+        class="text-center py-8 bg-gradient-to-b from-gray-50 to-transparent"
+      >
+        <h1 class="m-0 text-gray-800 text-4xl font-bold">
+          Boeliebots {id} - Bots
+        </h1>
+      </div>
+
+      {
+        hasImages && images.length > 0 ? (
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8 max-w-7xl mx-auto">
+            {images.map((image) => (
+              <div class="flex flex-col gap-3 bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-200">
+                <Image
+                  src={`/bots/${id}/${image}`}
+                  alt={getFileNameWithoutExtension(image)}
+                  width={400}
+                  height={300}
+                  class="w-full h-[300px] object-cover"
+                />
+                <div class="p-4 font-medium text-center text-gray-900 text-2xl tracking-tight font-heading">
+                  {getFileNameWithoutExtension(image)}
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div class="text-center py-16 px-8 text-gray-600">
+            <p>
+              De afbeeldingen voor Boeliebots {id} worden nog geüpload, een
+              moment geduld aub.
+            </p>
+          </div>
+        )
+      }
+    </main>
+    <Footer />
+  </body>
+</html>
