@@ -12,4 +12,8 @@ Voor het eerst hebben we plek voor robots van 15cmx15cm, lees hierover meer in d
 Voor deelnemers handig om te weten: 11.00 - 12.00 is de technische keuring, dus kom op tijd, dan kun je eventuele verbeterpunten nog op tijd verwerken.
 In de planning hebben we weer ruimte voor pauzes en daarin is plek voor een aantal 1-op-1 (grudge match) en veel-tegen-veel (melee) wedstrijden.
 
+Het evenement is in het Forum in Groningen aan de Nieuwe Markt, als je binnenloopt op de begane grond is het niet te missen.
+
+We zullen de wedstrijden livestreamen via [youtube](https://www.youtube.com/live/Th3bJ8Tgdno), via [ons kanaal](https://www.youtube.com/@MaakplekStreaming) wat historie.
+
 Aanmelden kan nog tot in ieder geval 9 november via [het formulier](/aanmelden).
