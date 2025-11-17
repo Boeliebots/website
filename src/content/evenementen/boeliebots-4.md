@@ -15,6 +15,8 @@ Het [competitieverloop](/schema) is in 1 overzicht terug te zien. Voor meer deta
 - 12 Plastic Ant klasse
 - 10 Ants
 
+[Alle deelnemende bots zijn hier te zien.](/bots/4)
+
 Een geweldig moment was helemaal aan het einde van de Plastic Ant competitie, zelfs na twee complete finalewedstrijden van 90 seconden stonden Flippy en Kuroku gelijk. En ook na de vraag aan het publiek wie ze vonden dat er moest winnen was dat niet te onderscheiden. Dus..... hebben ze beiden gewonnen! Via steen-papier-schaar besloten ze wie de 'winnaars' trofee mee naar huis mocht nemen.
 
 | Positie | Instap         | Plastic Ant      | Ant          | Creativiteit       | Wat een actie! |
