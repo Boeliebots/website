@@ -109,4 +109,8 @@
           -ms-overflow-style: none;  /* IE and Edge */
           scrollbar-width: none;  /* Firefox */
     }
+
+	 .font-outline-1 {
+		-webkit-text-stroke: 2px var(--color-brown-500);
+	}
   }

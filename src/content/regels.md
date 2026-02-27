@@ -74,7 +74,7 @@ Gewichtslimieten; Gebruik een weegschaal die tenminste nauwkeurig is op 1 gram.
   - Elke robot moet via een gemakkelijk bereikbare manier zonder gereedschap uit te zetten zijn (bijv. Met een schakelaar, een verwijderbare connector of batterijstekker). 
   - Schakelaars moeten voorzien zijn van een duidelijke aan/uit markering.
   - Schakelaars mogen zich **niet** achter wapens bevinden.
-  - Zenders mogen de volgende frequenties gebruiken: 2,4 GHz. Stuur voorag een bericht aan de evenement organisatie als je hiervan wilt afwijken.
+  - Zenders mogen de volgende frequenties gebruiken: 2,4 GHz. Stuur vooraf een bericht aan de evenement organisatie als je hiervan wilt afwijken.
   - Wapens moeten op afstand aan en uit te zetten zijn.
   - Failsafe - De robot en wapens moeten volledig tot stilstand komen indien de zender uitgezet wordt.
 
