@@ -14,4 +14,6 @@ In de planning hebben we weer ruimte voor pauzes en daarin is plek voor een aant
 
 Het evenement is in het Forum in Groningen aan de Nieuwe Markt, als je binnenloopt op de begane grond is het niet te missen.
 
-We zullen de wedstrijden livestreamen via [Youtube](https://www.youtube.com/watch?v=bdyJjwGWtIE), via [ons kanaal](https://www.youtube.com/@MaakplekStreaming) wat historie.
+We zullen de wedstrijden [live streamen via Youtube](https://www.youtube.com/watch?v=bdyJjwGWtIE), op [ons kanaal](https://www.youtube.com/@MaakplekStreaming) wat historie.
+
+Standen zijn te volgen via [het schema](https://www.boeliebots.nl/schema).
