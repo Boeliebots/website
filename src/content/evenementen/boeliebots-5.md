@@ -16,6 +16,4 @@ In de planning hebben we weer ruimte voor pauzes en daarin is plek voor een aant
 
 Het evenement is in het Forum in Groningen aan de Nieuwe Markt, als je binnenloopt op de begane grond is het niet te missen.
 
-We zullen de wedstrijden livestreamen via [youtube](https://www.youtube.com/live/Th3bJ8Tgdno), via [ons kanaal](https://www.youtube.com/@MaakplekStreaming) wat historie.
-
-Aanmelden kan nog tot in ieder geval 9 november via [het formulier](/aanmelden).
+Kijk de livestream terug via [youtube](https://www.youtube.com/live/Th3bJ8Tgdno), eventueel meer streams [ons kanaal](https://www.youtube.com/@MaakplekStreaming).
