@@ -16,4 +16,4 @@ Het evenement is in het Forum in Groningen aan de Nieuwe Markt, als je binnenloo
 
 We zullen de wedstrijden [live streamen via Youtube](https://www.youtube.com/watch?v=bdyJjwGWtIE), op [ons kanaal](https://www.youtube.com/@MaakplekStreaming) wat historie.
 
-Standen zijn te volgen via [het schema](https://www.boeliebots.nl/schema).
+Standen zijn te volgen via [het schema](https://www.boeliebots.nl/schema6).
