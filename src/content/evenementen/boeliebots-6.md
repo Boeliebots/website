@@ -20,9 +20,9 @@ In de planning hebben we weer ruimte voor pauzes en daarin is plek voor een aant
 
 Het evenement is in het Forum in Groningen aan de Nieuwe Markt, als je binnenloopt op de begane grond is het niet te missen.
 
-Alle wedstrijden zijn terug te ekijken via de [live streamen via Youtube](https://www.youtube.com/watch?v=bdyJjwGWtIE).
-
-Standen zijn te volgen via [het schema](https://www.boeliebots.nl/schema6).
+Standen via [het schema](https://www.boeliebots.nl/schema6).\
+Alle wedstrijden in de [live streamen via Youtube](https://www.youtube.com/watch?v=bdyJjwGWtIE).\
+Alle robots [gingen vooraf op de foto] (/bots/6/).\
 
 # Wedstrijden Gereden
 
