@@ -7,13 +7,13 @@ heroImage: '/20251116boeliebots5.jpg'
 
 Zondag 15 maart vanaf 13.00 starten de wedstrijden tot de prijsuitreiking om iets voor vier uur.
 
-De robots zijn maximaal 15cmx15cm, lees hierover meer in de [regels](/regels). Kleinere robots zijn natuurlijk ook altijd nog welkom! Om dit mogelijk te maken werkt Wouter heel hard aan een grotere arena, op de foto staat de oude nog.
+De robots zijn maximaal 15cmx15cm, lees hierover meer in de [regels](/regels). Kleinere robots zijn natuurlijk ook altijd nog welkom! Om dit mogelijk te maken hebben Klaas en Wouter heel hard gewerkt aan een grotere arena, op de foto staat de oude nog.
 
 | Positie | Instap         | Plastic Ant      | Ant          | Creativiteit       | Wat een actie! |
 |---------|----------------|------------------|--------------|--------------------|----------------|
 | 1       | Flow    | Baby Blue | Vertiffic & Wedgellent    | Ball-e             | Desperate Measures        |
 | 2       | Volt       | Flippy             | Cow Catcher | Spookje            |                |
-| 3       | Battle Beetle | Wervelwind v2        | Betty      | Niet Te Breken 4.0 |                |
+| 3       | Battle Beetle | Wervelwind v2        | Betty      | Niet Te Breken 5.0 |                |
 
 Voor deelnemers handig om te weten: 11.00 - 12.00 is de technische keuring, dus kom op tijd, dan kun je eventuele verbeterpunten nog op tijd verwerken.
 In de planning hebben we weer ruimte voor pauzes en daarin is plek voor een aantal 1-op-1 (grudge match) en veel-tegen-veel (melee) wedstrijden.
@@ -28,7 +28,7 @@ Alle robots [gingen vooraf op de foto](/bots/6/).
 
 | Bot 1 | Bot 2 | Winner | Klasse |
 |-------|-------|--------|--------|
-| Desperate Measures | Gutshot | Gutshot | ant |
+| Desperate Measures | Gut Shot | Gut Shot | ant |
 | Platypus | NTB 5.0 | NTB 5.0 | ant |
 | Vertiffic & Wedgellent | sandwich | Vertiffic & Wedgellent | ant |
 | Tiny Terror | Double Trouble | Tiny Terror | ant |
@@ -45,7 +45,7 @@ Alle robots [gingen vooraf op de foto](/bots/6/).
 | Flippy | Big Player | Flippy | plant |
 | Koekie shredder | Flippin Adorable | Flippin Adorable | plant |
 | Betty | Tiny Terror | Betty | ant |
-| Are Ya Winning Son? | Gutshot | Are Ya Winning Son? | ant |
+| Are Ya Winning Son? | Gut Shot | Are Ya Winning Son? | ant |
 | Einfach | Desperate Measures | Desperate Measures | ant |
 | Raspberry Light | Double Trouble | Raspberry Light | ant |
 | Woody | flow | flow | instap |
@@ -56,7 +56,7 @@ Alle robots [gingen vooraf op de foto](/bots/6/).
 | sandwich | Desperate Measures | Desperate Measures | ant |
 | Pipo | Raspberry Light | Raspberry Light | ant |
 | Snert | Master of Disaster | Snert | plant |
-| PitStop | Gutshot | Gutshot | ant |
+| PitStop | Gut Shot | Gut Shot | ant |
 | Big Player | Baked Bean | Big Player | plant |
 | Teletubbie | Botney Spears | Botney Spears | instap |
 | YEET | Ball-e | YEET | instap |
@@ -66,11 +66,11 @@ Alle robots [gingen vooraf op de foto](/bots/6/).
 | Are Ya Winning Son? | Cow Catcher | Cow Catcher | ant |
 | Vortex PT | Raspberry Light | Raspberry Light | ant |
 | Torusje | Desperate Measures | Desperate Measures | ant |
-| NTB 5.0 | Gutshot | Gutshot | ant |
+| NTB 5.0 | Gut Shot | Gut Shot | ant |
 | Are Ya Winning Son? | Tiny Terror | Are Ya Winning Son? | ant |
 | Woody | Botney Spears | Botney Spears | instap |
 | Spookje | YEET | YEET | instap |
-| Raspberry Light | Gutshot | Gutshot | ant |
+| Raspberry Light | Gut Shot | Gut Shot | ant |
 | Betty | Vertiffic & Wedgellent | Betty | ant |
 | PowerLoader | Cow Catcher | Cow Catcher | ant |
 | Flippy | Flippin Adorable | Flippy | plant |
@@ -81,14 +81,14 @@ Alle robots [gingen vooraf op de foto](/bots/6/).
 | Betty | Cow Catcher | Cow Catcher | ant |
 | flow | Battle Beetle | flow | instap |
 | Superboost | Volt | Volt | instap |
-| PowerLoader | Gutshot | Gutshot | ant |
+| PowerLoader | Gut Shot | Gut Shot | ant |
 | Baby Blue | Flippin Adorable | Baby Blue | plant |
 | Desperate Measures | Platypus | Desperate Measures | ant |
 | Wervelwind v2 | Flippy | Flippy | plant |
 | Battle Beetle | YEET | Battle Beetle | instap |
 | Vertiffic & Wedgellent | Desperate Measures | Vertiffic & Wedgellent | ant |
 | Superboost | Botney Spears | Botney Spears | instap |
-| Gutshot | Vertiffic & Wedgellent | Vertiffic & Wedgellent | ant |
+| Gut Shot | Vertiffic & Wedgellent | Vertiffic & Wedgellent | ant |
 | flow | Volt | flow | instap |
 | Battle Beetle | Botney Spears | Battle Beetle | instap |
 | Wervelwind v2 | Baby Blue | Baby Blue | plant |
