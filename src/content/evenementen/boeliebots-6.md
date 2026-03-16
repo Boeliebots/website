@@ -22,7 +22,7 @@ Het evenement is in het Forum in Groningen aan de Nieuwe Markt, als je binnenloo
 
 Standen via [het schema](https://www.boeliebots.nl/schema6).\
 Alle wedstrijden in de [live streamen via Youtube](https://www.youtube.com/watch?v=bdyJjwGWtIE).\
-Alle robots [gingen vooraf op de foto] (/bots/6/).\
+Alle robots [gingen vooraf op de foto](/bots/6/).\
 
 # Wedstrijden Gereden
 
