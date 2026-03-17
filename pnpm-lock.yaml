@@ -35,6 +35,9 @@ importers:
       tailwindcss:
         specifier: ^4.2.1
         version: 4.2.1
+      unist-util-visit:
+        specifier: ^5.1.0
+        version: 5.1.0
       vue:
         specifier: ^3.5.30
         version: 3.5.30(typescript@5.9.3)
