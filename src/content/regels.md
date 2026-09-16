@@ -174,5 +174,7 @@ In deze plastic ant klasse zijn alleen specifieke materialen als constructiemate
 In deze vrije ant klasse mag je zelf kiezen welke materialen en electronica je gebruikt.
 
   * de robot en wapen moeten veilig en zonder gereedschap uit te zetten zijn in geval van nood. Screw switches zijn toegestaan, mits deze met een hex-schroevendraaier, **geen kleine "L vormige inbus" sleutels**, uit zijn te zetten. Vanuit Boeliebbots nemen wij de volgende de maten mee: 1,5mm; 2,0mm; 2,5mm.
+
   * [Failsafe functie](https://www.youtube.com/watch?v=4DGZOaQOzJU) van ontvanger moet ingesteld zijn en alle motoren en servo's stoppen.
+  
   * We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze klasse in de geest van de regels mee te doen. Als je dit niet doet kun je geweigerd of gediskwalificeerd worden. Neem vooraf [contact](mailto:boeliebots@maakplek.nl) op als je niet zeker weet of jouw robot aan de bovenstaande definitie voldoet.
