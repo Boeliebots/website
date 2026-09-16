@@ -166,12 +166,12 @@ In deze plastic ant klasse zijn alleen specifieke materialen als constructiemate
     * PET, PETG, ABS, ASA, PLA, PLA+, LW-PLA, hout, spons, papier, karton. 
   * Niet toegestane materialen zijn onder andere metaal, flexibel 3D print filament (bijvoorbeeld TPU en TPE), UHMW en onderdelen van een composiet materiaal of vezelversterkt filament (bijvoorbeeld, glasvezel, carbon, hout etc.).
 
-  * de robot en wapen moeten veilig en zonder gereedschap uit te zetten zijn in geval van nood
+  * de robot en wapen moeten veilig en zonder gereedschap uit te zetten zijn in geval van nood. Screw switches zijn toegestaan, mits deze met een hex-schroevendraaier (geen kleine L vormige inbus sleutels) uit zijn te zetten.
   * [Failsafe functie](https://www.youtube.com/watch?v=4DGZOaQOzJU) van ontvanger moet ingesteld zijn en alle motoren en servo's stoppen.
   * We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze klasse in de geest van de regels mee te doen. Als je dit niet doet kun je geweigerd of gediskwalificeerd worden. Neem vooraf [contact](mailto:boeliebots@maakplek.nl) op als je niet zeker weet of jouw robot aan de bovenstaande definitie voldoet.
 
 ### Ant klasse
 In deze vrije ant klasse mag je zelf kiezen welke materialen en electronica je gebruikt.
-  * de robot en wapen moeten veilig en zonder gereedschap uit te zetten zijn in geval van nood
+  * de robot en wapen moeten veilig en zonder gereedschap uit te zetten zijn in geval van nood. Screw switches zijn toegestaan, mits deze met een hex-schroevendraaier (geen kleine L vormige inbus sleutels) uit zijn te zetten.
   * [Failsafe functie](https://www.youtube.com/watch?v=4DGZOaQOzJU) van ontvanger moet ingesteld zijn en alle motoren en servo's stoppen.
   * We weten dat grenzen van regels opzoeken leuk is. We willen je vragen in deze klasse in de geest van de regels mee te doen. Als je dit niet doet kun je geweigerd of gediskwalificeerd worden. Neem vooraf [contact](mailto:boeliebots@maakplek.nl) op als je niet zeker weet of jouw robot aan de bovenstaande definitie voldoet.
