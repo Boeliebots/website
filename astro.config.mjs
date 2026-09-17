@@ -17,4 +17,7 @@ export default defineConfig({
     markdown: {
         rehypePlugins: [rehypeTableScroll]
     },
+    redirects: {
+    '/aanmelden': 'https://competitie.boeliebots.nl/manage/register',
+  }
 });
