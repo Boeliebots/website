@@ -2,7 +2,7 @@
 title: 'Boeliebots VII - Weer de arena in!'
 description: 'Nieuwe robotideeën, nieuwe bestuurders, vertrouwde arena en uren lang robotactie. Van harte welkom om te komen kijken in het Forum op 15 maart.'
 pubDate: '2026-10-25'
-heroImage: '/20251116boeliebots5.jpg'
+heroImage: '/prebb7.jpg'
 ---
 
 Zondag 25 oktober vanaf 13.00 starten de wedstrijden tot de prijsuitreiking om iets voor vier uur.
